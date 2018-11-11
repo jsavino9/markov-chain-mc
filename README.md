@@ -1,29 +1,29 @@
-# mcmcjsav [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Markov Chain Monte Carlo for graph analysis
+# mcmctest [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+> mcmctest
 
 ## Installation
 
 ```sh
-$ npm install --save mcmcjsav
+$ npm install --save mcmctest
 ```
 
 ## Usage
 
 ```js
-const mcmcjsav = require('mcmcjsav');
+const mcmctest = require('mcmctest');
 
-mcmcjsav('Rainbow');
+mcmctest('Rainbow');
 ```
 ## License
 
-Apache-2.0 © [James]()
+ISC © [James]()
 
 
-[npm-image]: https://badge.fury.io/js/mcmcjsav.svg
-[npm-url]: https://npmjs.org/package/mcmcjsav
-[travis-image]: https://travis-ci.org/jsavino9/mcmcjsav.svg?branch=master
-[travis-url]: https://travis-ci.org/jsavino9/mcmcjsav
-[daviddm-image]: https://david-dm.org/jsavino9/mcmcjsav.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/jsavino9/mcmcjsav
-[coveralls-image]: https://coveralls.io/repos/jsavino9/mcmcjsav/badge.svg
-[coveralls-url]: https://coveralls.io/r/jsavino9/mcmcjsav
+[npm-image]: https://badge.fury.io/js/mcmctest.svg
+[npm-url]: https://npmjs.org/package/mcmctest
+[travis-image]: https://travis-ci.org//mcmctest.svg?branch=master
+[travis-url]: https://travis-ci.org//mcmctest
+[daviddm-image]: https://david-dm.org//mcmctest.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org//mcmctest
+[coveralls-image]: https://coveralls.io/repos//mcmctest/badge.svg
+[coveralls-url]: https://coveralls.io/r//mcmctest

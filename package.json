@@ -1,7 +1,7 @@
 {
-  "name": "mcmcjsav",
+  "name": "mcmctest",
   "version": "0.0.0",
-  "description": "Markov Chain Monte Carlo for graph analysis",
+  "description": "mcmctest",
   "homepage": "",
   "author": {
     "name": "James",
@@ -66,9 +66,12 @@
     "precommit": "lint-staged",
     "test": "jest"
   },
-  "repository": "jsavino9/mcmcjsav",
   "jest": {
     "testEnvironment": "node"
   },
-  "license": "Apache-2.0"
+  "license": "ISC",
+  "dependencies": {
+    "cytoscape": "^3.2.20",
+    "lodash.clonedeep": "^4.5.0"
+  }
 }
