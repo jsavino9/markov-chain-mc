@@ -1,7 +1,7 @@
 {
-  "name": "mcmctest",
+  "name": "mcmc",
   "version": "0.0.0",
-  "description": "mcmctest",
+  "description": "mcmc",
   "homepage": "",
   "author": {
     "name": "James",
@@ -22,8 +22,11 @@
     "eslint-config-xo": "^0.24.2",
     "eslint-plugin-prettier": "^2.6.0",
     "husky": "^0.14.3",
+    "istanbul": "^0.4.5",
     "jest": "^23.6.0",
     "lint-staged": "^7.2.2",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
     "prettier": "^1.11.1"
   },
   "engines": {
@@ -64,19 +67,17 @@
   "scripts": {
     "pretest": "eslint .",
     "precommit": "lint-staged",
+    "test": "mocha",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha",
-    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
-    "test": "mocha"
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
+  "repository": "jsavino9/markov-chain-mc",
   "jest": {
     "testEnvironment": "node"
   },
   "license": "ISC",
   "dependencies": {
     "cytoscape": "^3.2.20",
-    "istanbul": "^0.4.5",
-    "lodash.clonedeep": "^4.5.0",
-    "mocha": "^5.2.0",
-    "mocha-lcov-reporter": "^1.3.0"
+    "lodash.clonedeep": "^4.5.0"
   }
 }
