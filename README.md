@@ -4,7 +4,7 @@
 
 This application applies the Markov Chain Monte Carlo Metropolis Hastings algorithm to a number of nodes in 2D space. The algorithm determines the best graphs according to a weight function defined as:
 
-<center>![alt text](eq.png 'Equation')</center>
+![alt text](eq.png 'Equation')
 
 - Free software: ISC license
 

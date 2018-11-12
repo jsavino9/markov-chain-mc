@@ -169,8 +169,8 @@ describe('metropolis hastings', () => {
     // Note all components have been tested prior, so this test just ensures that it runs
     var nodes = [[0, 0], [1, 0], [2, 0], [3, 0]];
     var graph = new mc.GraphOps(nodes);
-    // Run for 2000 iterations to ensure stability
-    mc.methastings(1, 4, 300, 5, graph);
+    // Run for 200 iterations to ensure stability
+    mc.methastings(1, 4, 300, 200, graph);
   });
 });
 
@@ -185,12 +185,10 @@ describe('frequent graphs', () => {
       [[3, 3, 3], [3, 3, 3], [3, 3, 3]],
       [[4, 4, 4], [4, 4, 4], [4, 4, 4]]
     ];
-    // Run for 2000 iterations to ensure stability
     var adjsorted = mc.frequentgraphs(adj, 40);
     assert.equal(adj[0].toString(), adjsorted[0][0].toString());
     assert.equal(adj[3].toString(), adjsorted[0][1].toString());
     assert.equal((typeof adjsorted[0][2]).toString(), 'undefined');
-    // Assert.equal(typeof adjsorted[0][2], undefined);
   });
 });
 
