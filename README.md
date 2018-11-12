@@ -1,29 +1,25 @@
-# mcmctest [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> mcmctest
+# Markov Chain Monte Carlo
 
-## Installation
+This application applies the Markov Chain Monte Carlo Metropolis Hastings algorithm to a number of nodes in 2D space. The algorithm determines the best graphs according to a weight function defined as:
+![alt text](eq.png 'Equation')
 
-```sh
-$ npm install --save mcmctest
-```
+[![Coverage Status](https://coveralls.io/repos/github/jsavino9/markov-chain-mc/badge.svg?branch=master)](https://coveralls.io/github/jsavino9/markov-chain-mc?branch=master)
 
-## Usage
+- Free software: ISC license
 
-```js
-const mcmctest = require('mcmctest');
+## Installation Instructions
 
-mcmctest('Rainbow');
-```
-## License
+This program is intended to be run on NodeJS v8 or higher.
 
-ISC © [James]()
+Required packages: cytoscape, lodeash.clonedeep (these should install automatically)
 
+Required dev packages can be found in the package.json file.
 
-[npm-image]: https://badge.fury.io/js/mcmctest.svg
-[npm-url]: https://npmjs.org/package/mcmctest
-[travis-image]: https://travis-ci.org//mcmctest.svg?branch=master
-[travis-url]: https://travis-ci.org//mcmctest
-[daviddm-image]: https://david-dm.org//mcmctest.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//mcmctest
-[coveralls-image]: https://coveralls.io/repos//mcmctest/badge.svg
-[coveralls-url]: https://coveralls.io/r//mcmctest
+To install:
+
+1. Go to the repository home page https://github.com/jsavino9/markov-chain-mc. Click clone/download, and click "download as zip" once the file is downloaded, it can be unzipped. An alternative option is to clone the repository.
+2. Navigate to the root directory and type 'npm install .' in your preferred terminal/command line interface to install the application. To install it globally, use the -g flag.
+
+## Credits
+
+Author: James Savino
